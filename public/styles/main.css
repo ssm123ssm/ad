@@ -1,0 +1,14 @@
+.msg_input {
+    display: none;
+}
+
+#messages {
+    display: none;
+    padding: 5px;
+    border: 1px solid black;
+    width: 290px;
+    height: 268px;
+    margin: 5px;
+    text-align: left;
+    overflow: auto;
+}
