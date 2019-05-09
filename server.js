@@ -29,6 +29,11 @@ app.get('/loadMockUsers', function (req, res) {
     userFunctions.loadMockUsers(res);
 });
 
+app.get('/', function (req, res) {
+    console.log('connection');
+    res.send('hello...');
+});
+
 io.on('connection', function (socket) {
     console.log('new');
     console.log(socket.id);
