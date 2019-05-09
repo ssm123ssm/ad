@@ -7,7 +7,7 @@ var dbFunctions = require('./dbfunctions');
 var users = require('./mock/users/users');
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var port = 80;
+var port = 8080;
 var userFunctions = {
     loadMockUsers: function (res) {
         users.forEach(function (item) {
